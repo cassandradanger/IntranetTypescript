@@ -9,17 +9,16 @@ var secondNum;
 $(document).ready(function(){
     $('.num').on('click', function(){
         console.log("click worked");
-        if(!opp) {
-            if (firstNum) {
+        if(!opp){
+            if(firstNum) {
                 firstNum = "" + firstNum + $(this).data("num");
-            } else {
+            }else{
                 firstNum = $(this).data("num");
             }
-            console.log(firstNum);
+        console.log(firstNum);
             $('#display').text(firstNum);
-        }else if(firstNum)
 
-
+        }
     });
 });
 
