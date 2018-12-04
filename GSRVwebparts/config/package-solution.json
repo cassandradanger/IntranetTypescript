@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gsr-vwebparts-client-side-solution",
+    "id": "f4a9b800-0dd2-44a0-98fe-5b7f2987b3a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/gsr-vwebparts.sppkg"
+  }
+}
